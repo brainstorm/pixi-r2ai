@@ -1,0 +1,17 @@
+[project]
+name = "r2ai"
+version = "0.1.0"
+description = "Playing with radare 2 AI"
+authors = ["Roman Valls Guimera <brainstorm@nopcode.org>"]
+channels = ["conda-forge"]
+platforms = ["osx-arm64"]
+
+[tasks]
+
+[dependencies]
+pytorch = "2.0.0.*"
+torchvision = "0.15.2.*"
+inquirer = "3.1.3.*"
+rich = "13.6.0.*"
+appdirs = "1.4.4.*"
+huggingface_hub = "0.18.0.*"
