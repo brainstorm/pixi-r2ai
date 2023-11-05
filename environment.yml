@@ -1,0 +1,13 @@
+name: r2ai
+channels:
+  - conda-forge
+  - pytorch-nightly
+dependencies:
+  - pip = "23.3.1.*"
+  - torchaudio = "2.2.0.dev20231104.*"
+  - pytorch = "2.2.0.dev20231104.*"
+  - torchvision = "0.17.0.dev20231104.*"
+  - appdirs = "1.4.4.*"
+  - huggingface_hub = "0.18.0.*"
+  - inquirer = "3.1.3.*"
+  - rich = "13.6.0.*"
