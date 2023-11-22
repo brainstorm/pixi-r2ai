@@ -1,3 +1,12 @@
+# Quickstart
+
+```shell
+$ brew install pixi --HEAD
+$ pixi install
+$ pixi run install_r2ai
+$ pixi shell
+```
+
 # Intro
 
 There should be an easier way to install radare2's AI than the official way:
@@ -16,12 +25,5 @@ ln -fs /Users/rvalls/.local/share/radare2/r2pm/git/r2ai/main.py /Users/rvalls/.l
 ```
 
 This repo explores this while giving [Pixi](prefix_dev) a try!
-
-# Quickstart
-
-```shell
-$ pixi install
-$ pixi run pypi r2ai
-```
 
 [prefix_dev]: https://prefix.dev/
