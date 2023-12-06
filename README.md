@@ -11,6 +11,7 @@ $ pixi shell
 
 TODO:
 
-	* Add $PATH to `r2ai` to shell, closs-platform-y
+	* Add $PATH to `r2ai` to shell, closs-platform-y, probably via a script and hooking іnto [Activation][pixi-activation]
 
 [r2ai]: https://github.com/radareorg/r2ai
+[pixi-activation]: https://pixi.sh/advanced/multi_platform_configuration/#activation
