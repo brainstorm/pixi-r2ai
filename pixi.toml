@@ -10,15 +10,14 @@ platforms = ["osx-arm64"]
 install_r2ai = "ln -sf $HOME/.local/share/radare2/r2pm/git/r2ai/main.py $HOME/.local/share/radare2/plugins/r2ai.py && ln -sf $HOME/.local/share/radare2/r2pm/git/r2ai/main.py  $HOME/.local/share/radare2/prefix/bin/r2ai && echo 'Radare2 AI installed'"
 
 [pypi-dependencies]
-tokentrim = "~=0.1.13"
-llama-cpp-python = "~=0.2.19"
+tokentrim = "*"
 
 [dependencies]
+llama-cpp-python = "*"
 torchaudio = "*"
 pytorch = "*"
 torchvision = "*"
-appdirs = "1.4.4.*"
-huggingface_hub = "0.18.0.*"
-inquirer = "3.1.3.*"
-rich = "13.6.0.*"
-python = "3.11.6.*"
+appdirs = "*"
+huggingface_hub = "*"
+inquirer = "*"
+rich = "*"
