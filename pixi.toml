@@ -7,7 +7,7 @@ channels = ["pytorch-nightly", "conda-forge"]
 platforms = ["osx-arm64"]
 
 [tasks]
-install_r2ai = "ln -sf $HOME/.local/share/radare2/r2pm/git/r2ai/main.py $HOME/.local/share/radare2/plugins/r2ai.py && ln -sf $HOME/.local/share/radare2/r2pm/git/r2ai/main.py  $HOME/.local/share/radare2/prefix/bin/r2ai && echo 'Radare2 AI installed'"
+install_r2ai = "ln -sf $HOME/.local/share/radare2/r2pm/git/r2ai/main.py $HOME/.local/share/radare2/plugins/r2ai.py && ln -sf $HOME/.local/share/radare2/r2pm/git/r2ai/main.py  $HOME/.local/share/radare2/prefix/bin/r2ai && echo '# r2ai\nexport PATH=$PATH:$HOME/.local/share/radare2/prefix/bin' >> $HOME/.zshrc && echo 'Radare2 AI installed. Run source ~/.zshrc to run r2ai bin'"
 
 [pypi-dependencies]
 tokentrim = "*"
